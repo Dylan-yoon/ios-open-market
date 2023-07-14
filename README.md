@@ -32,10 +32,12 @@
     - 네트워크 타입 구현
 
 - 221115
+
 ![](https://i.imgur.com/fpVv2mZ.png)
     - 네트워크 타입 Unit Test 구현
 
 - 221116
+
     ![](https://i.imgur.com/NJIEwAJ.png)
     - URLSession을 이용하여 네트워킹
 
@@ -146,6 +148,7 @@
     │   └── ProductItemCellContent.swift
     └── RegisterProductCollectionView
         └── RegisterCollectionImageCell.swift
+
 ```
 
 - 네트워크 관련 UML
@@ -201,6 +204,7 @@ class NetworkManager {
     }
 }
 ```
+
 ```swift
 protocol APIType {
     var baseURL: String { get }
@@ -321,7 +325,7 @@ func downSampling(scale: Double) -> UIImage {
     - [Choosing Between Structures and Classes](https://developer.apple.com/documentation/swift/choosing-between-structures-and-classes)
     - [Attributedtext](https://developer.apple.com/documentation/uikit/uilabel/1620542-attributedtext)
     - [Data Entry - iOS - Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/data-entry/)
-    - [UIImagePicker](https://developer.apple.com/documentation/uikit/uiimagepickercontroller)
+    - [UIImagePicker](https://developer.apple.com/documentation/uikit/uiimagepicker
 - Swift Programming Language
     - [클로저 캡쳐(캡쳐 값)](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
     - [클로저의 강한 참조](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#ID56)
